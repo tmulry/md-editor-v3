@@ -17,15 +17,15 @@
   "description": "Markdown editor for vue3, developed in jsx and typescript, dark theme、beautify content by prettier、render articles directly、paste or clip the picture and upload it...",
   "author": {
     "name": "zbf",
-    "url": "https://github.com/imzbf"
+    "url": "https://github.com/tmulry"
   },
-  "homepage": "https://imzbf.github.io/md-editor-v3/",
+  "homepage": "https://tmulry.github.io/md-editor-v3/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imzbf/md-editor-v3.git"
+    "url": "git+https://github.com/tmulry/md-editor-v3.git"
   },
   "bugs": {
-    "url": "https://github.com/imzbf/md-editor-v3/issues"
+    "url": "https://github.com/tmulry/md-editor-v3/issues"
   },
   "files": [
     "lib"
