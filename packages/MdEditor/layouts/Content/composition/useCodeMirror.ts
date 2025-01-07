@@ -1,7 +1,6 @@
 import { ref, onMounted, inject, ComputedRef, watch, shallowRef } from 'vue';
 import { EditorView } from 'codemirror';
 import { keymap, drawSelection } from '@codemirror/view';
-import { languages } from '@codemirror/language-data';
 import { markdown } from '@codemirror/lang-markdown';
 import { Compartment } from '@codemirror/state';
 import {
@@ -110,7 +109,7 @@ const useCodeMirror = (props: ContentProps) => {
   const defaultExtensions = [
     keymap.of(getDefaultKeymaps()),
     historyComp.of(history()),
-    languageComp.of(markdown({ codeLanguages: languages })),
+    languageComp.of(markdown()),
     // 横向换行
     EditorView.lineWrapping,
     EditorView.updateListener.of((update) => {
